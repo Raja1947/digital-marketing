@@ -1,0 +1,174 @@
+/* Header Css */
+.col-nav
+{
+    width: 75%;
+    float: left;
+}
+.col-contact
+{
+    width: 25%;
+    float: right;
+    text-align: right;
+}
+.col-contact a
+{
+    text-decoration: none;
+    padding: 23px;
+    font-size: 21px;
+    display: inline-block;
+    transition: all 0.5s ease;
+    color: #330707;
+}
+.col-contact a :hover
+{
+    color: #f0820d;
+}
+.logo
+{
+    width: 30%;
+    float: left;
+    margin-left: 7%;
+    
+}
+.menu
+{
+    width: 63%;
+    float: right;
+}
+.logo img
+{
+    width: 190px;
+    height: 74px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 23px;
+    font-size: 21px;
+    display: inline-block;
+    transition: all 0.5s ease;
+    color:#330707;
+  }
+  .menu a :hover
+  {
+    color: #f0820d;
+  }
+  .active
+  {
+    color: #f0820d;
+  }
+.clear
+{
+    clear: both;
+}
+
+/* Home Css */
+
+section .header-bg-parent
+{
+    position: relative;
+    top: -100px;
+    
+}
+
+.header-col1
+{
+    float: left;
+    width: 25%;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+}
+.header-col2 
+{
+    float: right;
+    background-image: url(../src/images/banner_bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 55%;
+    top: -60px;
+    
+    
+}
+
+.header-col1 h5
+{
+    color: #3b3663;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 7px;
+    margin-top: 15px;
+    
+}
+.header-col1 h2{
+    color: #3b3663;
+    font-size: 50px;
+    
+}
+.header-col1 h2
+{
+    color: #3b3663;
+    font-size:49px ;
+    line-height:32px ;
+    margin: 21px 6px 15px;
+}
+.header-col1 p
+{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 9px 6px;
+}
+button 
+{
+    background: linear-gradient(90deg, #8b81ef, #6759e8);
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    /* font-family: 'Courier New', Courier, monosp  ace; */
+    font-weight: 800;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
+button:hover
+{
+    background: linear-gradient(180deg, #6759e8, #8b81ef,);
+
+}
+
+/* Footer Section */
+footer {
+  background: black;
+  height: auto;
+  width: 100%;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #b74848a1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+.footer-bottom
+{
+  text-align: center;
+  
+font-size: 20px;
+word-spacing: 2px;
+letter-spacing: 1px;
+font-weight: bold;
+}
+.footer-content
+{
+  text-align: center;
+font-size: 25px;
+word-spacing: 2px;
+letter-spacing: 1px;
+font-weight: bolder;
+}
